@@ -1,0 +1,72 @@
+name: imense_project
+description: "A new Flutter project."
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  fl_chart: ^0.68.0
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  flutter_swiper_null_safety: ^1.0.2
+  get: ^4.6.6
+  # flutter_native_splash: ^2.3.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+
+# flutter_native_splash:
+#   color: "#ffffff"  # Background color
+#   android: true
+#   ios: true
+#   android_gravity: center # Center the logo on Android
+#   ios_content_mode: scaleAspectFill # Center the logo on iOS
+#   fullscreen: true # Make the splash screen fullscreen
+#   background_image: assets/images/construction_image1.png # Path to your background image
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/construction_image.png
+    - assets/images/construction_image1.png
+    - assets/images/profile_image.png
+    - assets/images/observationIcon.svg
+    - assets/images/progressIcon.svg
+    - assets/images/lockIcon.svg
+    - assets/images/reportIcon.svg
+    - assets/images/observationIconG.svg
+    - assets/images/homeIcon.svg
+    - assets/images/calendarIcon.svg
+    - assets/images/categoryIcon.svg
+    - assets/images/statusIcon.svg
+    - assets/images/subcategoryIcon.svg
+    - assets/images/tagIcon.svg
+    - assets/images/typeIcon.svg
+    - assets/images/logo.svg
+    - assets/images/logo.png
+    
+  fonts:
+    - family: Nunito
+      fonts:
+         - asset: assets/fonts/Nunito/Nunito-Regular.ttf
+         - asset: assets/fonts/Nunito/Nunito-Medium.ttf
+         - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+
+    - family: Roboto
+      fonts:
+         - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+         - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+         - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+    
